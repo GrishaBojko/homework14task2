@@ -306,7 +306,7 @@ header
   margin-top: 2vw
  
 .blog__box-1
-  background: url(/img/blog1.png)
+  background: url(/app/img/blog1.png)
 
 .blog__box-2
   background: url(/app/img/blog2.png)
@@ -464,19 +464,19 @@ footer span
    height: 100%
 
  header
-   height: 100%
+   height: 100vh
    display: flex
    
  .header__heading
    flex-direction: column
    align-items: flex-start
-   height: 100%
+   height: 100vh
 
  .header__links
    flex-direction: column
    font-size: 6vw
    margin-left: 5vw
-   height: 100%
+   height: 90vh
    width: 30vw
 
  nav
@@ -556,14 +556,14 @@ footer span
    padding-right: 4vw
 
  .gallery
-   height: 240vh
+   height: 200vh
    justify-content: space-around
 
- .text_container
+ .gallery .text_container
    width: 80vw
    height: 40vw
   
- .text_container p
+ .gallery p
    font-size: 4.5vw
 
  .gallery .title
@@ -586,7 +586,6 @@ footer span
    width: 85vw 
    height: 60vw
    
- 
  .gallery__box-2
    width: 85vw
    flex-direction: column
@@ -622,45 +621,82 @@ footer span
    align-items: center
   
  .subscribe__text_container
-   background: red
    width: 85vw
    height: 40vw
    align-items: center
    text-align: center
    
-
  .subscribe__text_container p
    font-size: 5vw
    width: 85vw
 
  .subscribe .title
    font-size: 9vw
-   background: blue
    width: 85vw
-  
+
  .subscribe__form
-   background: orange
    width: 85vw
    height: 40vw
-
- 
+   
  .subscribe__form .text_input
    width: 60vw
-   height: 20vw
-   font-size: 8vw
+   height: 15vw
+   font-size: 4.5vw
+
+ .subscribe .button
+   height: 15vw
+   width: 25vw
+   font-size: 3.5vw
+
+ .subscribe input::placeholder
+   font-size: 4.5vw
+
+ .blog
+   height: 140vh
+
+ .blog .title
+   font-size: 12vw
 
 
-  
-  
+ .blog__content
+   flex-direction: column
+   height: 200vw
+   width: 85vw
+   margin-top: 15vw
+
+ .blog__box
+   width: 85vw
+   height: 60vw
+
+ .blog .text_container
+   height: 40vw
+   width: 80vw
+   font-size: 3.5vw
+
+ .blog__date
+   font-size: 6vw
+   width: 15vw
+   height: 15vw
+   border-radius: 1vw
+   margin-left: 7vw
+   
+
+ .blog .text
+   font-size: 6vw
+   width: 70vw
+   line-height: 6vw
+   padding-left: 5vw
+
+ .blog .title-2
+   font-size: 4vw
+   padding-left: 5vw
 
 
-
-
-
-
- 
-
-
+ .blog .button
+   width: 60vw
+   height: 30vw
+   margin-top: 10vw
+   font-size: 6vw
 
   
     
