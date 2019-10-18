@@ -868,7 +868,7 @@ footer span {
     font-size: 7vw;
     padding-right: 4vw; }
   .gallery {
-    height: 200vh;
+    height: 240vh;
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around; }
@@ -985,7 +985,7 @@ footer span {
   .subscribe input::placeholder {
     font-size: 4.5vw; }
   .blog {
-    height: 140vh; }
+    height: 160vh; }
   .blog .title {
     font-size: 12vw; }
   .blog__content {
