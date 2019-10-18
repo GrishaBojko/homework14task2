@@ -3,6 +3,9 @@
   padding: 0
   margin: 0
 
+html,body 
+  height: 100%
+
 $background-1: rgb(255,96,51)
 $background-2: rgb(112, 191,255)
 $background-3: rgb(0, 175,174)
@@ -303,7 +306,7 @@ header
   margin-top: 2vw
  
 .blog__box-1
-  background: url(/app/img/blog1.png)
+  background: url(/img/blog1.png)
 
 .blog__box-2
   background: url(/app/img/blog2.png)
@@ -459,6 +462,7 @@ footer span
 
  html,body 
    height: 100%
+
  header
    height: 100%
    display: flex
@@ -497,12 +501,153 @@ footer span
    margin-top: 4vw
 
  header .button
-    margin-top: 4vw
-    width: 45vw
-    height: 20vw
-    font-size: 5vw
+   margin-top: 4vw
+   width: 45vw
+   height: 20vw
+   font-size: 5vw
 
+ main 
+  min-height: 100%
 
+ .about
+   height: 100vh
+   flex-direction: column-reverse
+  
+ .about img
+   width: 45vh
+   height: 45vh
+
+ .about .text
+   font-size: 4vw
+   line-height: 5vw
+
+ .about__text_container
+   width: 40vh
+   height: 50vh
+   text-align: center
+
+ .services
+   height: 100vh
+   flex-direction: column-reverse
+   align-items: center
+
+ .services__logo
+   width: 40vh
+   height: 40vh
+   display: flex
+   justify-content: center
+   
+ .services .title
+   font-size: 6.7vh
+
+ .services__links
+   width: 80vw
+   height: 80vw
+
+ .services__links li 
+   height: 18vw
+
+ .services__links a
+   font-size: 5vw
+   font-weight: 600
+
+ .services__links i 
+   font-size: 7vw  
+   padding-right: 4vw
+
+ .gallery
+   height: 240vh
+   justify-content: space-around
+
+ .text_container
+   width: 80vw
+   height: 40vw
+  
+ .text_container p
+   font-size: 4.5vw
+
+ .gallery .title
+   font-size: 12vw
+
+ .gallery__photos_container
+   width: 85vw
+   height: 300vw
+   flex-direction: column
+   justify-content: flex-start
+   flex-wrap: nowrap
+ 
+ .gallery__box-1
+   background: black
+   width: 85vw
+   height: 60vw
+   justify-content: flex-start
+
+ .gallery__box-1 img
+   width: 85vw 
+   height: 60vw
+   
+ 
+ .gallery__box-2
+   width: 85vw
+   flex-direction: column
+   height: 120vw
+   justify-content: flex-start
+   margin-top: 5vw
+
+ .gallery__box-3
+   width: 85vw
+   height: 120vw
+   flex-direction: column
+   justify-content: flex-start
+   margin-top: 10vw
+   
+
+ .gallery__box-3 img
+   width: 85vw
+   height: 60vw
+   margin-bottom: 5vw
+  
+ .gallery__box-2 img
+   width: 100%
+   height: 60vw
+   margin-bottom: 5vw
+   
+ .gallery .button
+   width: 45vw
+   height: 20vw
+   font-size: 5vw
+   
+ .subscribe
+   height: 100vh
+   align-items: center
+  
+ .subscribe__text_container
+   background: red
+   width: 85vw
+   height: 40vw
+   align-items: center
+   text-align: center
+   
+
+ .subscribe__text_container p
+   font-size: 5vw
+   width: 85vw
+
+ .subscribe .title
+   font-size: 9vw
+   background: blue
+   width: 85vw
+  
+ .subscribe__form
+   background: orange
+   width: 85vw
+   height: 40vw
+
+ 
+ .subscribe__form .text_input
+   width: 60vw
+   height: 20vw
+   font-size: 8vw
 
 
   
