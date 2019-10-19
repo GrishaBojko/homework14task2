@@ -502,13 +502,13 @@ header {
   margin-top: 2vw; }
 
 .blog__box-1 {
-  background: url(../img/blog1.png); }
+  background: url(/app/img/blog1.png); }
 
 .blog__box-2 {
-  background: url(../img/blog2.png); }
+  background: url(/app/img/blog2.png); }
 
 .blog__box-3 {
-  background: url(../img/blog3.png); }
+  background: url(/app/img/blog3.png); }
 
 .blog__box {
   width: 26.66666666666667vw;
@@ -576,7 +576,7 @@ header {
 .contact {
   font-family: 'Open Sans', sans-serif;
   height: 60vw;
-  background: url(../img/footerbg.png);
+  background: url(/app/img/footerbg.png);
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -985,7 +985,7 @@ footer span {
   .subscribe input::placeholder {
     font-size: 4.5vw; }
   .blog {
-    height: 160vh; }
+    height: 180vh; }
   .blog .title {
     font-size: 12vw; }
   .blog__content {
