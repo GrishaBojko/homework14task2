@@ -514,7 +514,7 @@ footer .title {
 footer span {
   color: #ff2b58; }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 320px) and (max-width: 440px) {
   html, body {
     height: 100%; }
   header {
@@ -613,7 +613,7 @@ footer span {
     font-size: 7vw;
     padding-right: 4vw; }
   .gallery {
-    height: 240vh;
+    height: 260vh;
     justify-content: space-around; }
   .gallery .text_container {
     width: 80vw;
